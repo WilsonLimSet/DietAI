@@ -2,6 +2,7 @@ import Logo from '@/components/icons/Logo';
 import Button from '@/components/ui/Button';
 import { createClient } from '@/utils/supabase/server';
 import { Github } from 'lucide-react';
+import {Google} from 'lucide-react';
 import { cookies } from 'next/headers';
 import { redirect } from 'next/navigation';
 import { type Provider } from '@supabase/supabase-js';
@@ -15,6 +16,7 @@ type OAuthProviders = {
 
 const oAuthProviders: OAuthProviders[] = [
   { name: 'github', icon: <Github className="h-5 w-5" /> }
+  { name: 'google', icon: <Google className="h-5 w-5" /> }
   /* Add desired OAuth providers here */
 ];
 
