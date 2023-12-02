@@ -15,7 +15,7 @@ type OAuthProviders = {
 };
 
 const oAuthProviders: OAuthProviders[] = [
-  { name: 'github', icon: <Github className="h-5 w-5" /> }
+  { name: 'github', icon: <Github className="h-5 w-5" /> },
   { name: 'google', icon: <Google className="h-5 w-5" /> }
   /* Add desired OAuth providers here */
 ];
